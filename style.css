@@ -25,7 +25,7 @@ nav {
   height: 100%;
   max-width: 1000px;
   width: 100%;
-  background-color: red;
+  background-color: rgb(97, 92, 92);
   margin: 0 auto;
   padding: 0 30px;
   display: flex;
@@ -45,9 +45,8 @@ nav {
 }
 
 .menu li a {
-  /* position: relative; */
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
   color: cadetblue;
 }
 
@@ -79,7 +78,7 @@ nav {
 }
 
 .hero-right p {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .hero-right button {
@@ -113,9 +112,6 @@ nav {
     object-fit: cover
 }
 
-/* .section-2-left-content{
-
-} */
 
 .section-2-right {
     width: 50%;
@@ -129,6 +125,7 @@ nav {
 
 .section-2-right-box{
   display: flex;
+  align-items: center;
   
 }
 
@@ -137,6 +134,47 @@ nav {
     height: auto;
     object-fit: cover;
     margin-right: 15px;
+}
+
+/* .section-2-right .section-2-right .content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
+.start-learning{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.start-learning h2{
+   border: 2px solid #333;
+   padding: 10px;     
+   color: black;   
+   font-size: 30px;
+}
+
+.container-grid{
+  width: 80%;
+  margin: 24px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+  gap: 20px;
+  row-gap: 20px;
+  align-items: center;
 
 }
+
+.grid-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+
+
+
 
